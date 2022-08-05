@@ -41,8 +41,29 @@ a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
+  
 }
 
 ul {
   list-style-type: none;
+}
+
+/* My Solution */
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+ul  {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
+
+.left, .right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
