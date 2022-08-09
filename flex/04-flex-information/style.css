@@ -1,5 +1,5 @@
 body {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 
 img {
@@ -27,7 +27,7 @@ img {
 
 /* My Solution */
 
-body{
+body {
   text-align: center;
 }
 
@@ -35,12 +35,12 @@ body{
   margin-bottom: 32px;
 }
 
-.container{
+.container {
   display: flex;
   justify-content: center;
   gap: 52px;
 }
 
-.info{
+.info {
   max-width: 200px;
 }
